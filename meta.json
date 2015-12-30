@@ -4,23 +4,54 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "fileId",
+            "title":"File ID"
+        },
+        {
+            "id": "commentId",
+            "title":"Comment ID"
+        },
+        {
+            "id": "includeDeleted",
+            "title":"Include Deleted?"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "createdTime",
+            "title":"Created At"
+        },
+        {
+            "id": "displayName",
+            "title":"Author"
+        },
+        {
+            "id": "emailAddress",
+            "title":"Author Email"
+        },
+        {
+            "id": "content",
+            "title":"Content"
+        },
+        {
+            "id": "resolved",
+            "title":"Resolved?"
+        },
+        {
+            "id": "quotedFileContent",
+            "title":"Quoted Content"
+        },
+        {
+            "id": "replies",
+            "title":"Replies"
         }
-      */
     ],
+    "icon": "dex-drive",
     "title": "Google Drive Get Comments" /* Required.A display name for the module */
 }

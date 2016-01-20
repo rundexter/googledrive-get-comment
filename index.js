@@ -42,7 +42,7 @@ module.exports = {
             access_token: _.get(cretentials, 'access_token')
         });
         google.options({ auth: oauth2Client });
-        
+
         inputs.fields = fieldsFromApi;
         service.comments.get(inputs, function (error, data) {
             if (error)
